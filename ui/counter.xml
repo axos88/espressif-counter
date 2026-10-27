@@ -1,0 +1,16 @@
+<screen>
+	<view flex_flow="column">
+		<style name="style_screen" />
+
+		<lv_label bind_text="count">
+			<style name="style_count" />
+		</lv_label>
+
+		<lv_button width="160" height="56">
+			<style name="style_btn" />
+			<style name="style_btn_pressed" selector="pressed" />
+			<subject_increment_event subject="count" />
+			<lv_label text="Count" align="center" />
+		</lv_button>
+	</view>
+</screen>

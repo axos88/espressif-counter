@@ -1,0 +1,22 @@
+<globals>
+	<consts>
+		<color name="bg" value="0xF6F5F1" />
+		<color name="text" value="0x14202E" />
+		<color name="primary" value="0x2459D6" />
+		<color name="pressed" value="0x1A44A8" />
+		<color name="on_primary" value="0xF6F5F1" />
+	</consts>
+	<subjects>
+		<int name="count" value="0" />
+	</subjects>
+	<fonts>
+		<bin name="font_count" src_path="fonts/Montserrat-Bold.ttf" size="48" bpp="4" range="0x20-0x7F" as_file="false" />
+		<bin name="font_button" src_path="fonts/Montserrat-SemiBold.ttf" size="20" bpp="4" range="0x20-0x7F" as_file="false" />
+	</fonts>
+	<styles>
+		<style name="style_screen" bg_color="#bg" bg_opa="100%" flex_main_place="center" flex_cross_place="center" flex_track_place="center" pad_row="24" />
+		<style name="style_count" text_color="#text" text_font="font_count" />
+		<style name="style_btn" bg_color="#primary" radius="12" text_color="#on_primary" text_font="font_button" />
+		<style name="style_btn_pressed" bg_color="#pressed" />
+	</styles>
+</globals>
